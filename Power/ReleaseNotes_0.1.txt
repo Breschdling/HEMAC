@@ -1,0 +1,13 @@
+- Resistor Footprints 0805 different pad size
+- Capacitor Footprints 0805 different pad size
+- Diodes SS54 pad size too big. (D7,8)
+- IC Pin 1 marking missing (SO8, SO20, TSOT6)
+- 6.3mm terminal hole a little bit tight
+- Designator printing missing.
+
+Component not mounted:
+- 100R R10-R42
+- R1
+- R92
+- C1
+- FB1,2

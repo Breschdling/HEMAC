@@ -1,0 +1,146 @@
+
+(rules PCB HEMAC_MCU
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 12942)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.6)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.6)
+    )
+  )
+  (rule
+    (width 254.0)
+    (clear 300.2)
+    (clear 127.0 (type smd_to_turn_gap))
+    (clear 75.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_500:300_um"
+    (shape
+      (circle F.Cu 500.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 500.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-1]_900:600_um"
+    (shape
+      (circle F.Cu 900.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 900.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_500:300_um" "Via[0-1]_500:300_um" default
+  )
+  (via 
+    "Via[0-1]_900:600_um" "Via[0-1]_900:600_um" default
+  )
+  (via 
+    "Via[0-1]_500:300_um-kicad_default" "Via[0-1]_500:300_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_900:600_um-kicad_default" "Via[0-1]_900:600_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_500:300_um-Digital" "Via[0-1]_500:300_um" Digital
+  )
+  (via 
+    "Via[0-1]_900:600_um-Digital" "Via[0-1]_900:600_um" Digital
+  )
+  (via 
+    "Via[0-1]_500:300_um-Power" "Via[0-1]_500:300_um" Power
+  )
+  (via 
+    "Via[0-1]_900:600_um-Power" "Via[0-1]_900:600_um" Power
+  )
+  (via_rule
+    default "Via[0-1]_500:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_500:300_um-kicad_default"
+  )
+  (via_rule
+    Digital "Via[0-1]_500:300_um-Digital"
+  )
+  (via_rule
+    Power "Via[0-1]_900:600_um-Power"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(C201-Pad1)" "Net-(C707-Pad1)" "Net-(J201-PadA5)" "Net-(J201-PadB5)" "Net-(J201-PadA6)" "Net-(J201-PadB6)" "Net-(J201-PadA7)" "Net-(J201-PadB7)"
+    "Net-(J201-PadA8)" "Net-(J201-PadB8)" "Net-(J201-PadA9)" "Net-(J201-PadB9)" "Net-(J201-PadA10)" "Net-(J201-PadB10)" "Net-(J201-PadA11)" "Net-(J201-PadB11)"
+    "Net-(J201-PadA12)" "Net-(J201-PadB12)" "Net-(J201-PadA13)" "Net-(J201-PadB13)" "Net-(J201-PadA14)" "Net-(J201-PadB14)" "Net-(J201-PadA15)" "Net-(J201-PadB15)"
+    "Net-(J201-PadA16)" "Net-(J201-PadB16)" "Net-(J201-PadA17)" "Net-(J201-PadB17)" "Net-(J201-PadA18)" "Net-(J201-PadB18)" "Net-(J201-PadA19)" "Net-(J201-PadB19)"
+    "Net-(J201-PadA20)" "Net-(J201-PadB20)" "Net-(J201-PadA21)" "Net-(J201-PadB21)" "Net-(J201-PadA22)" "Net-(J201-PadB22)" "Net-(J201-PadB23)" "Net-(M101-Pad1)"
+    "Net-(M101-Pad2)" "Net-(R201-Pad1)" "Net-(R202-Pad1)" "Net-(R203-Pad1)" "Net-(R204-Pad1)" "Net-(R205-Pad1)" /Inputs/CE "Net-(R302-Pad1)"
+    "Net-(R302-Pad2)" "Net-(D301-Pad2)" "Net-(D302-Pad2)" "Net-(D303-Pad2)" "/Computer/RUN_PG2" "Net-(R401-Pad1)" "Net-(R501-Pad1)" "Net-(R502-Pad1)"
+    "Net-(R701-Pad1)" "Net-(R702-Pad1)" "Net-(R703-Pad1)" "Net-(R704-Pad1)" "Net-(R705-Pad1)" "Net-(R705-Pad2)" "Net-(SW701-Pad3)" "Net-(SW701-Pad4)"
+    "Net-(D303-Pad1)" "Net-(D302-Pad1)" "Net-(D301-Pad1)" "Net-(U303-Pad1)" "Net-(U502-Pad11)" "Net-(U502-Pad9)" "Net-(U601-Pad1)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Digital
+    "/Bus/1_wire" /Computer/GPIO4 "/Bus/I2C_SDA" "/Bus/I2C_SCL" /Bus/GPI17 /Bus/GPI27 /Bus/GPI22 /Bus/MOSI
+    /Bus/MISO /Bus/SCLK "/Bus/ID_SD" /Bus/GPI5 /Bus/GPI6 /Bus/PWM1 "/Bus/PCM_FS" /Bus/GPO26
+    "/Bus/UART0_TXD" "/Bus/UART0_RXD" "/Bus/PCM_CLK" /Bus/GPO23 /Bus/GPO24 /Bus/GPO25 /Bus/CE0 /Bus/CE1
+    "/Bus/ID_SC" /Bus/PWM0 /Bus/CE2 "/Bus/PCM_DIN" "/Bus/PCM_DOUT" /Bus/#RESET "/Bus/PWR_3V3" "/Bus/PWR_5V"
+    "/Bus/PWR_24V" "/Computer/ID_SC_RPI" "/Computer/ID_SD_RPI" /Computer/GPIO3 /Computer/GPIO2 /Computer/GPIO20 /Computer/GPIO15 /Computer/GPIO6
+    /Computer/GPIO5 /Computer/GPIO9 /Computer/GPIO22 /Computer/GPIO27 /Computer/GPIO17 /Computer/GPIO23 /Computer/GPIO18 /Computer/GPIO14
+    /Computer/GPIO26 /Computer/GPIO19 /Computer/GPIO13 /Computer/GPIO11 /Computer/GPIO10 /Computer/GPIO24 /Computer/GPIO25 /Computer/GPIO8
+    /Computer/GPIO7 /Computer/GPIO12 /Computer/GPIO16 /Computer/GPIO21
+    (clearance_class Digital)
+    (via_rule Digital)
+    (rule
+      (width 152.4)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Power
+    Earth GND +3V3 +5V +24V VDC
+    (clearance_class Power)
+    (via_rule Power)
+    (rule
+      (width 508.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

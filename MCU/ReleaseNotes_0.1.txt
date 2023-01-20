@@ -1,0 +1,20 @@
+HEMAC MCU release notes 0.1
+
+- Add programming header for I2C EEPROM 24Cxx
+
+Mechanical
+
+Footprints
+- Remove copper around screw holes RPI4 footprint. Keep out area
+
+Components not mounted
+- C101
+- FB101, FB102
+- R101, 102, 103
+- R201-205
+- R301, R302
+- R402
+- R501
+- R502
+- R604
+- R703, 704

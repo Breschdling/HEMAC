@@ -1,0 +1,2626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\jenso\OneDrive\文件\Kicad_temp\HEMAC_MCU\HEMAC_MCU.sch</source>
+    <date>2020-06-07 13:32:10</date>
+    <tool>Eeschema (5.1.5)-3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>HEMAC MCU</title>
+        <company/>
+        <rev>0.1</rev>
+        <date>2020-05-05</date>
+        <source>HEMAC_MCU.sch</source>
+        <comment number="1" value="JOH"/>
+        <comment number="2" value="FR4"/>
+        <comment number="3" value="N/A"/>
+        <comment number="4" value="Internal"/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Bus/" tstamps="/5F31E6DA/">
+      <title_block>
+        <title>HEMAC MCU</title>
+        <company/>
+        <rev>0.1</rev>
+        <date>2020-05-05</date>
+        <source>Bus.sch</source>
+        <comment number="1" value="JOH"/>
+        <comment number="2" value="FR4"/>
+        <comment number="3" value="N/A"/>
+        <comment number="4" value="Internal"/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Peripheral/" tstamps="/5F31F68A/">
+      <title_block>
+        <title>HEMAC MCU</title>
+        <company/>
+        <rev>0.1</rev>
+        <date>2020-05-05</date>
+        <source>Peripheral.sch</source>
+        <comment number="1" value="JOH"/>
+        <comment number="2" value="FR4"/>
+        <comment number="3" value="N/A"/>
+        <comment number="4" value="Internal"/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Inputs/" tstamps="/5EB045A8/">
+      <title_block>
+        <title>HEMAC MCU</title>
+        <company/>
+        <rev>0.1</rev>
+        <date>2020-05-05</date>
+        <source>Inputs.sch</source>
+        <comment number="1" value="JOH"/>
+        <comment number="2" value="FR4"/>
+        <comment number="3" value="N/A"/>
+        <comment number="4" value="Internal"/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Outputs/" tstamps="/5EB046AD/">
+      <title_block>
+        <title>HEMAC MCU</title>
+        <company/>
+        <rev>0.1</rev>
+        <date>2020-05-05</date>
+        <source>Outputs.sch</source>
+        <comment number="1" value="JOH"/>
+        <comment number="2" value="FR4"/>
+        <comment number="3" value="N/A"/>
+        <comment number="4" value="Internal"/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Serial/" tstamps="/5EB04789/">
+      <title_block>
+        <title>HEMAC MCU</title>
+        <company/>
+        <rev>0.1</rev>
+        <date>2020-05-05</date>
+        <source>Serial.sch</source>
+        <comment number="1" value="JOH"/>
+        <comment number="2" value="FR4"/>
+        <comment number="3" value="N/A"/>
+        <comment number="4" value="Internal"/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Computer/" tstamps="/5F31D729/">
+      <title_block>
+        <title>HEMAC MCU</title>
+        <company/>
+        <rev>0.1</rev>
+        <date>2020-05-05</date>
+        <source>Computer.sch</source>
+        <comment number="1" value="JOH"/>
+        <comment number="2" value="FR4"/>
+        <comment number="3" value="N/A"/>
+        <comment number="4" value="Internal"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="M101">
+      <value>Eurocard_Handle</value>
+      <footprint>hardware:EuroCard_Handle</footprint>
+      <libsource lib="hardware" part="Eurocard_Handle" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECEF0D3</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>1nF</value>
+      <footprint>capacitor:C_1210</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">1210</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_1210" description="Capacitor_1210"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECEF0E5</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>1M</value>
+      <footprint>resistor:R_1210</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR10X.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR10X</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_1210" description="Resistor 1210 1%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECEF0ED</tstamp>
+    </comp>
+    <comp ref="FB101">
+      <value>100R</value>
+      <footprint>ferrite:FB_1210_3225Metric_Pad1.42x2.65mm_HandSolder</footprint>
+      <libsource lib="ferrite" part="Ferrite_1210" description="Ferrite_1210"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECEF0F3</tstamp>
+    </comp>
+    <comp ref="FB102">
+      <value>100R</value>
+      <footprint>ferrite:FB_1210_3225Metric_Pad1.42x2.65mm_HandSolder</footprint>
+      <libsource lib="ferrite" part="Ferrite_1210" description="Ferrite_1210"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECEF0F9</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>0R</value>
+      <footprint>resistor:R_1210</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR10X.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR10X</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_1210" description="Resistor 1210 1%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECF229F</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>0R</value>
+      <footprint>resistor:R_1210</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR10X.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR10X</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_1210" description="Resistor 1210 1%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECF2B8E</tstamp>
+    </comp>
+    <comp ref="J201">
+      <value>DIN41612_2x32_B</value>
+      <footprint>jack:DIN41612_B_2x32_Horizontal</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="MFN">Morethenall</field>
+        <field name="MFP">UB-PR-2X32-LF</field>
+      </fields>
+      <libsource lib="jack" part="DIN41612_2x32_B" description="Connector Europe 64 contacts ranges A,B"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB1F870</tstamp>
+    </comp>
+    <comp ref="L201">
+      <value>120uH_3A</value>
+      <footprint>inductor:16mm_Radial</footprint>
+      <datasheet>https://www.3lcoil.com/products_lookpdf.php?action=proself&amp;pdf=cGsucGRm</datasheet>
+      <fields>
+        <field name="MFN">3L coil</field>
+        <field name="MFP">PK1213</field>
+      </fields>
+      <libsource lib="inductor" part="120uH_3A" description="Inductor with Ferrite Core"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EC4F454</tstamp>
+    </comp>
+    <comp ref="R202">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB4C59F</tstamp>
+    </comp>
+    <comp ref="R201">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB4D1A7</tstamp>
+    </comp>
+    <comp ref="R203">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB4DB09</tstamp>
+    </comp>
+    <comp ref="R204">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB4DD6E</tstamp>
+    </comp>
+    <comp ref="R205">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB4DF1F</tstamp>
+    </comp>
+    <comp ref="R207">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB4E43B</tstamp>
+    </comp>
+    <comp ref="R206">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB4E447</tstamp>
+    </comp>
+    <comp ref="R208">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB4E453</tstamp>
+    </comp>
+    <comp ref="R209">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB4E45F</tstamp>
+    </comp>
+    <comp ref="R210">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB4E46B</tstamp>
+    </comp>
+    <comp ref="R212">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB59CB8</tstamp>
+    </comp>
+    <comp ref="R211">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB59CC4</tstamp>
+    </comp>
+    <comp ref="R213">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB59CD0</tstamp>
+    </comp>
+    <comp ref="R214">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB59CDC</tstamp>
+    </comp>
+    <comp ref="R215">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB59CE8</tstamp>
+    </comp>
+    <comp ref="R217">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB59CF4</tstamp>
+    </comp>
+    <comp ref="R216">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB59D00</tstamp>
+    </comp>
+    <comp ref="R218">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB59D0C</tstamp>
+    </comp>
+    <comp ref="R219">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB59D18</tstamp>
+    </comp>
+    <comp ref="R220">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB59D24</tstamp>
+    </comp>
+    <comp ref="R222">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB656E4</tstamp>
+    </comp>
+    <comp ref="R221">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB656F0</tstamp>
+    </comp>
+    <comp ref="R223">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB656FC</tstamp>
+    </comp>
+    <comp ref="R224">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB65708</tstamp>
+    </comp>
+    <comp ref="R225">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB65714</tstamp>
+    </comp>
+    <comp ref="R227">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB65720</tstamp>
+    </comp>
+    <comp ref="R226">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB6572C</tstamp>
+    </comp>
+    <comp ref="R228">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB65738</tstamp>
+    </comp>
+    <comp ref="R229">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB65744</tstamp>
+    </comp>
+    <comp ref="R230">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB65750</tstamp>
+    </comp>
+    <comp ref="R232">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB6575C</tstamp>
+    </comp>
+    <comp ref="R231">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB65768</tstamp>
+    </comp>
+    <comp ref="R233">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB65774</tstamp>
+    </comp>
+    <comp ref="R234">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB65780</tstamp>
+    </comp>
+    <comp ref="R235">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB6578C</tstamp>
+    </comp>
+    <comp ref="R236">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EB657A4</tstamp>
+    </comp>
+    <comp ref="R237">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EBA4A19</tstamp>
+    </comp>
+    <comp ref="C201">
+      <value>100nF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EBA5B0A</tstamp>
+    </comp>
+    <comp ref="C202">
+      <value>10uF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EBA6D6E</tstamp>
+    </comp>
+    <comp ref="C203">
+      <value>10uF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EBA7239</tstamp>
+    </comp>
+    <comp ref="C204">
+      <value>10uF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EBA75AF</tstamp>
+    </comp>
+    <comp ref="C205">
+      <value>10uF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EBA78C7</tstamp>
+    </comp>
+    <comp ref="C206">
+      <value>10uF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EBA7C78</tstamp>
+    </comp>
+    <comp ref="C207">
+      <value>100nF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EBB2C43</tstamp>
+    </comp>
+    <comp ref="C208">
+      <value>10uF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EBB2C4F</tstamp>
+    </comp>
+    <comp ref="C209">
+      <value>10uF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EBB2C5B</tstamp>
+    </comp>
+    <comp ref="C210">
+      <value>10uF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EBB2C67</tstamp>
+    </comp>
+    <comp ref="C211">
+      <value>10uF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EBB2C73</tstamp>
+    </comp>
+    <comp ref="C212">
+      <value>10uF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Bus/" tstamps="/5F31E6DA/"/>
+      <tstamp>5EBB2C7F</tstamp>
+    </comp>
+    <comp ref="D303">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Peripheral/" tstamps="/5F31F68A/"/>
+      <tstamp>5F3EEF19</tstamp>
+    </comp>
+    <comp ref="D302">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Peripheral/" tstamps="/5F31F68A/"/>
+      <tstamp>5F3EEF2F</tstamp>
+    </comp>
+    <comp ref="D301">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Peripheral/" tstamps="/5F31F68A/"/>
+      <tstamp>5F3EEF45</tstamp>
+    </comp>
+    <comp ref="U301">
+      <value>74HC14D</value>
+      <footprint>ic:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf</datasheet>
+      <fields>
+        <field name="MFN">Nexperia</field>
+        <field name="MFP">74HC14D</field>
+      </fields>
+      <libsource lib="ic" part="74HC14D" description="hex inverter"/>
+      <sheetpath names="/Peripheral/" tstamps="/5F31F68A/"/>
+      <tstamp>5EB9C84B</tstamp>
+    </comp>
+    <comp ref="U302">
+      <value>CAT24C32</value>
+      <footprint>ic:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/CAT24C32-D.PDF</datasheet>
+      <fields>
+        <field name="MFN">OnSemi</field>
+        <field name="MFP">CAT24C32WI</field>
+      </fields>
+      <libsource lib="ic" part="CAT24C32" description=""/>
+      <sheetpath names="/Peripheral/" tstamps="/5F31F68A/"/>
+      <tstamp>5EBB14E9</tstamp>
+    </comp>
+    <comp ref="R301">
+      <value>0R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Peripheral/" tstamps="/5F31F68A/"/>
+      <tstamp>5EBB87E2</tstamp>
+    </comp>
+    <comp ref="R302">
+      <value>0R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Peripheral/" tstamps="/5F31F68A/"/>
+      <tstamp>5EBB9901</tstamp>
+    </comp>
+    <comp ref="R306">
+      <value>0R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Peripheral/" tstamps="/5F31F68A/"/>
+      <tstamp>5EBBA79D</tstamp>
+    </comp>
+    <comp ref="R305">
+      <value>220R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Peripheral/" tstamps="/5F31F68A/"/>
+      <tstamp>5EBBB14C</tstamp>
+    </comp>
+    <comp ref="R304">
+      <value>220R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Peripheral/" tstamps="/5F31F68A/"/>
+      <tstamp>5EBBBC6B</tstamp>
+    </comp>
+    <comp ref="R303">
+      <value>220R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Peripheral/" tstamps="/5F31F68A/"/>
+      <tstamp>5EBBC08D</tstamp>
+    </comp>
+    <comp ref="U303">
+      <value>PCA9515</value>
+      <footprint>ic:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.nxp.com/docs/en/data-sheet/PCA9515.pdf</datasheet>
+      <fields>
+        <field name="MFN">NXP</field>
+        <field name="MFP">PCA9515D</field>
+      </fields>
+      <libsource lib="ic" part="PCA9515" description=""/>
+      <sheetpath names="/Peripheral/" tstamps="/5F31F68A/"/>
+      <tstamp>5EBD8F75</tstamp>
+    </comp>
+    <comp ref="C301">
+      <value>100nF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Peripheral/" tstamps="/5F31F68A/"/>
+      <tstamp>5EBC0FC9</tstamp>
+    </comp>
+    <comp ref="C302">
+      <value>100nF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Peripheral/" tstamps="/5F31F68A/"/>
+      <tstamp>5EBC25C7</tstamp>
+    </comp>
+    <comp ref="C303">
+      <value>100nF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Peripheral/" tstamps="/5F31F68A/"/>
+      <tstamp>5EBC3820</tstamp>
+    </comp>
+    <comp ref="R307">
+      <value>3k9</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Peripheral/" tstamps="/5F31F68A/"/>
+      <tstamp>5EBC43FC</tstamp>
+    </comp>
+    <comp ref="R308">
+      <value>3k9</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Peripheral/" tstamps="/5F31F68A/"/>
+      <tstamp>5EBC4C4B</tstamp>
+    </comp>
+    <comp ref="R309">
+      <value>3k9</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Peripheral/" tstamps="/5F31F68A/"/>
+      <tstamp>5EBC5017</tstamp>
+    </comp>
+    <comp ref="R310">
+      <value>3k9</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Peripheral/" tstamps="/5F31F68A/"/>
+      <tstamp>5EBC51B6</tstamp>
+    </comp>
+    <comp ref="U401">
+      <value>74HC245</value>
+      <footprint>ic:SOIC-20W_7.5x12.8mm_P1.27mm</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/74HC_HCT245.pdf</datasheet>
+      <fields>
+        <field name="MFN">Nexperia</field>
+        <field name="MFP">74HC245D,653</field>
+      </fields>
+      <libsource lib="ic" part="74HC245" description="Octal BUS Transceivers, 3-State outputs"/>
+      <sheetpath names="/Inputs/" tstamps="/5EB045A8/"/>
+      <tstamp>5ED14186</tstamp>
+    </comp>
+    <comp ref="R401">
+      <value>1k</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Inputs/" tstamps="/5EB045A8/"/>
+      <tstamp>5EBDD161</tstamp>
+    </comp>
+    <comp ref="R402">
+      <value>1k</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Inputs/" tstamps="/5EB045A8/"/>
+      <tstamp>5EBDDF5F</tstamp>
+    </comp>
+    <comp ref="C401">
+      <value>100nF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Inputs/" tstamps="/5EB045A8/"/>
+      <tstamp>5EBC7D8D</tstamp>
+    </comp>
+    <comp ref="U501">
+      <value>74HC245</value>
+      <footprint>ic:SOIC-20W_7.5x12.8mm_P1.27mm</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/74HC_HCT245.pdf</datasheet>
+      <fields>
+        <field name="MFN">Nexperia</field>
+        <field name="MFP">74HC245D,653</field>
+      </fields>
+      <libsource lib="ic" part="74HC245" description="Octal BUS Transceivers, 3-State outputs"/>
+      <sheetpath names="/Outputs/" tstamps="/5EB046AD/"/>
+      <tstamp>5ED16467</tstamp>
+    </comp>
+    <comp ref="U502">
+      <value>74HC245</value>
+      <footprint>ic:SOIC-20W_7.5x12.8mm_P1.27mm</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/74HC_HCT245.pdf</datasheet>
+      <fields>
+        <field name="MFN">Nexperia</field>
+        <field name="MFP">74HC245D,653</field>
+      </fields>
+      <libsource lib="ic" part="74HC245" description="Octal BUS Transceivers, 3-State outputs"/>
+      <sheetpath names="/Outputs/" tstamps="/5EB046AD/"/>
+      <tstamp>5ED188D8</tstamp>
+    </comp>
+    <comp ref="R501">
+      <value>1k</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Outputs/" tstamps="/5EB046AD/"/>
+      <tstamp>5EBDFE6C</tstamp>
+    </comp>
+    <comp ref="R503">
+      <value>1k</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Outputs/" tstamps="/5EB046AD/"/>
+      <tstamp>5EBE089E</tstamp>
+    </comp>
+    <comp ref="R502">
+      <value>1k</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Outputs/" tstamps="/5EB046AD/"/>
+      <tstamp>5EBE0D22</tstamp>
+    </comp>
+    <comp ref="R504">
+      <value>1k</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Outputs/" tstamps="/5EB046AD/"/>
+      <tstamp>5EBE1CD6</tstamp>
+    </comp>
+    <comp ref="C501">
+      <value>100nF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Outputs/" tstamps="/5EB046AD/"/>
+      <tstamp>5EBCA9DC</tstamp>
+    </comp>
+    <comp ref="C502">
+      <value>100nF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Outputs/" tstamps="/5EB046AD/"/>
+      <tstamp>5EBCB21C</tstamp>
+    </comp>
+    <comp ref="Q601">
+      <value>2N7002</value>
+      <footprint>transistor:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/2N7002.pdf</datasheet>
+      <fields>
+        <field name="MFN">Nexperia</field>
+        <field name="MFP">2N7002</field>
+      </fields>
+      <libsource lib="transistor" part="2N7002" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Serial/" tstamps="/5EB04789/"/>
+      <tstamp>5EAF6505</tstamp>
+    </comp>
+    <comp ref="R603">
+      <value>4k7</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Serial/" tstamps="/5EB04789/"/>
+      <tstamp>5EBE37AB</tstamp>
+    </comp>
+    <comp ref="U601">
+      <value>PCA9515</value>
+      <footprint>ic:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.nxp.com/docs/en/data-sheet/PCA9515.pdf</datasheet>
+      <fields>
+        <field name="MFN">NXP</field>
+        <field name="MFP">PCA9515D</field>
+      </fields>
+      <libsource lib="ic" part="PCA9515" description=""/>
+      <sheetpath names="/Serial/" tstamps="/5EB04789/"/>
+      <tstamp>5EBE4133</tstamp>
+    </comp>
+    <comp ref="R605">
+      <value>4k7</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Serial/" tstamps="/5EB04789/"/>
+      <tstamp>5EBE541C</tstamp>
+    </comp>
+    <comp ref="R604">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Serial/" tstamps="/5EB04789/"/>
+      <tstamp>5EBE5769</tstamp>
+    </comp>
+    <comp ref="R601">
+      <value>1k8</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Serial/" tstamps="/5EB04789/"/>
+      <tstamp>5EBE6C3B</tstamp>
+    </comp>
+    <comp ref="R602">
+      <value>1k8</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Serial/" tstamps="/5EB04789/"/>
+      <tstamp>5EBE7C4A</tstamp>
+    </comp>
+    <comp ref="R606">
+      <value>1k8</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Serial/" tstamps="/5EB04789/"/>
+      <tstamp>5EBE8050</tstamp>
+    </comp>
+    <comp ref="R607">
+      <value>1k8</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Serial/" tstamps="/5EB04789/"/>
+      <tstamp>5EBE8380</tstamp>
+    </comp>
+    <comp ref="C601">
+      <value>100nF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Serial/" tstamps="/5EB04789/"/>
+      <tstamp>5EBCD57B</tstamp>
+    </comp>
+    <comp ref="R701">
+      <value>0R</value>
+      <footprint>resistor:R_1210</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR10X.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR10X</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_1210" description="Resistor 1210 1%"/>
+      <sheetpath names="/Computer/" tstamps="/5F31D729/"/>
+      <tstamp>5EB21469</tstamp>
+    </comp>
+    <comp ref="R702">
+      <value>0R</value>
+      <footprint>resistor:R_1210</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR10X.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR10X</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_1210" description="Resistor 1210 1%"/>
+      <sheetpath names="/Computer/" tstamps="/5F31D729/"/>
+      <tstamp>5EB24545</tstamp>
+    </comp>
+    <comp ref="R703">
+      <value>0R</value>
+      <footprint>resistor:R_1210</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR10X.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR10X</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_1210" description="Resistor 1210 1%"/>
+      <sheetpath names="/Computer/" tstamps="/5F31D729/"/>
+      <tstamp>5EB24807</tstamp>
+    </comp>
+    <comp ref="R704">
+      <value>0R</value>
+      <footprint>resistor:R_1210</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR10X.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR10X</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_1210" description="Resistor 1210 1%"/>
+      <sheetpath names="/Computer/" tstamps="/5F31D729/"/>
+      <tstamp>5EB24A2B</tstamp>
+    </comp>
+    <comp ref="SW701">
+      <value>Tactile_90_Degeree</value>
+      <footprint>switch:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS</footprint>
+      <datasheet>https://www.mouser.tw/datasheet/2/60/pts645-965362.pdf</datasheet>
+      <fields>
+        <field name="MFN">Keystone</field>
+        <field name="MFP">PTS645VH58-2LFS</field>
+      </fields>
+      <libsource lib="switch" part="Tactile_90_Degeree" description=""/>
+      <sheetpath names="/Computer/" tstamps="/5F31D729/"/>
+      <tstamp>5ECCC3CD</tstamp>
+    </comp>
+    <comp ref="X701">
+      <value>RPI_4+Run</value>
+      <footprint>module:raspberrypi4</footprint>
+      <datasheet>E:\Datasheets\Electronics\ElectroMechanical\Connectors\RM_2.54mm\3M_2.54-Terminal-Headers-Bottom-Entry_ts2192</datasheet>
+      <fields>
+        <field name="MFN">Raspberry Pi</field>
+        <field name="MFP">RPI 4B</field>
+      </fields>
+      <libsource lib="module" part="RPI_4+Run" description=""/>
+      <sheetpath names="/Computer/" tstamps="/5F31D729/"/>
+      <tstamp>5EB9E5BE</tstamp>
+    </comp>
+    <comp ref="R705">
+      <value>100R</value>
+      <footprint>resistor:R_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <libsource lib="resistor" part="Resistor_0805" description="Resistor 0805"/>
+      <sheetpath names="/Computer/" tstamps="/5F31D729/"/>
+      <tstamp>5EBEE39F</tstamp>
+    </comp>
+    <comp ref="L701">
+      <value>120uH_3A</value>
+      <footprint>inductor:16mm_Radial</footprint>
+      <datasheet>https://www.3lcoil.com/products_lookpdf.php?action=proself&amp;pdf=cGsucGRm</datasheet>
+      <fields>
+        <field name="MFN">3L coil</field>
+        <field name="MFP">PK1213</field>
+      </fields>
+      <libsource lib="inductor" part="120uH_3A" description="Inductor with Ferrite Core"/>
+      <sheetpath names="/Computer/" tstamps="/5F31D729/"/>
+      <tstamp>5EBDA789</tstamp>
+    </comp>
+    <comp ref="C712">
+      <value>100nF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Computer/" tstamps="/5F31D729/"/>
+      <tstamp>5EBDA7C5</tstamp>
+    </comp>
+    <comp ref="C711">
+      <value>10uF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Computer/" tstamps="/5F31D729/"/>
+      <tstamp>5EBDA7CD</tstamp>
+    </comp>
+    <comp ref="C710">
+      <value>10uF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Computer/" tstamps="/5F31D729/"/>
+      <tstamp>5EBDA7D5</tstamp>
+    </comp>
+    <comp ref="C709">
+      <value>10uF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Computer/" tstamps="/5F31D729/"/>
+      <tstamp>5EBDA7DD</tstamp>
+    </comp>
+    <comp ref="C708">
+      <value>10uF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Computer/" tstamps="/5F31D729/"/>
+      <tstamp>5EBDA7E5</tstamp>
+    </comp>
+    <comp ref="C707">
+      <value>10uF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Computer/" tstamps="/5F31D729/"/>
+      <tstamp>5EBDA7ED</tstamp>
+    </comp>
+    <comp ref="C706">
+      <value>100nF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Computer/" tstamps="/5F31D729/"/>
+      <tstamp>5EBDA7F5</tstamp>
+    </comp>
+    <comp ref="C705">
+      <value>10uF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Computer/" tstamps="/5F31D729/"/>
+      <tstamp>5EBDA7FD</tstamp>
+    </comp>
+    <comp ref="C704">
+      <value>10uF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Computer/" tstamps="/5F31D729/"/>
+      <tstamp>5EBDA805</tstamp>
+    </comp>
+    <comp ref="C703">
+      <value>10uF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Computer/" tstamps="/5F31D729/"/>
+      <tstamp>5EBDA80D</tstamp>
+    </comp>
+    <comp ref="C702">
+      <value>10uF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Computer/" tstamps="/5F31D729/"/>
+      <tstamp>5EBDA815</tstamp>
+    </comp>
+    <comp ref="C701">
+      <value>10uF</value>
+      <footprint>capacitor:C_0805</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">0805</field>
+      </fields>
+      <libsource lib="capacitor" part="Capacitor_0805" description="Capacitor_0805"/>
+      <sheetpath names="/Computer/" tstamps="/5F31D729/"/>
+      <tstamp>5EBDA81D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="capacitor" part="Capacitor_0805">
+      <description>Capacitor_0805</description>
+      <docs>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Capacitor_0805</field>
+        <field name="Footprint">capacitor:C_0805</field>
+        <field name="MFP">0805</field>
+        <field name="MFN">Walsin</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="capacitor" part="Capacitor_1210">
+      <description>Capacitor_1210</description>
+      <docs>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Capacitor_1210</field>
+        <field name="Footprint">capacitor:C_1210</field>
+        <field name="MFP">1210</field>
+        <field name="MFN">Walsin</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ferrite" part="Ferrite_1210">
+      <description>Ferrite_1210</description>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">Ferrite_1210</field>
+        <field name="Footprint">ferrite:FB_1210_3225Metric_Pad1.42x2.65mm_HandSolder</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hardware" part="Eurocard_Handle">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Eurocard_Handle</field>
+        <field name="Footprint">hardware:EuroCard_Handle</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PE" type="passive"/>
+        <pin num="2" name="PE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ic" part="74HC14D">
+      <description>hex inverter</description>
+      <docs>http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC14D</field>
+        <field name="Footprint">ic:SOIC-14_3.9x8.7mm_P1.27mm</field>
+        <field name="MFN">Nexperia</field>
+        <field name="MFP">74HC14D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="output"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="output"/>
+        <pin num="11" name="~" type="input"/>
+        <pin num="12" name="~" type="output"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ic" part="74HC245">
+      <description>Octal BUS Transceivers, 3-State outputs</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/74HC_HCT245.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC245</field>
+        <field name="Footprint">ic:SOIC-20W_7.5x12.8mm_P1.27mm</field>
+        <field name="MFN">Nexperia</field>
+        <field name="MFP">74HC245D,653</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A-&gt;B" type="input"/>
+        <pin num="2" name="A0" type="3state"/>
+        <pin num="3" name="A1" type="3state"/>
+        <pin num="4" name="A2" type="3state"/>
+        <pin num="5" name="A3" type="3state"/>
+        <pin num="6" name="A4" type="3state"/>
+        <pin num="7" name="A5" type="3state"/>
+        <pin num="8" name="A6" type="3state"/>
+        <pin num="9" name="A7" type="3state"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="B7" type="3state"/>
+        <pin num="12" name="B6" type="3state"/>
+        <pin num="13" name="B5" type="3state"/>
+        <pin num="14" name="B4" type="3state"/>
+        <pin num="15" name="B3" type="3state"/>
+        <pin num="16" name="B2" type="3state"/>
+        <pin num="17" name="B1" type="3state"/>
+        <pin num="18" name="B0" type="3state"/>
+        <pin num="19" name="CE" type="input"/>
+        <pin num="20" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ic" part="CAT24C32">
+      <docs>https://www.onsemi.com/pub/Collateral/CAT24C32-D.PDF</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CAT24C32</field>
+        <field name="Footprint">ic:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="MFN">OnSemi</field>
+        <field name="MFP">CAT24C32WI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA" type="BiDi"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="WP" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ic" part="PCA9515">
+      <docs>https://www.nxp.com/docs/en/data-sheet/PCA9515.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PCA9515</field>
+        <field name="Footprint">ic:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="MFN">NXP</field>
+        <field name="MFP">PCA9515D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="passive"/>
+        <pin num="2" name="SCL0" type="passive"/>
+        <pin num="3" name="SDA0" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="EN" type="passive"/>
+        <pin num="6" name="SDA1" type="passive"/>
+        <pin num="7" name="SCL1" type="passive"/>
+        <pin num="8" name="Vcc" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="inductor" part="120uH_3A">
+      <description>Inductor with Ferrite Core</description>
+      <docs>https://www.3lcoil.com/products_lookpdf.php?action=proself&amp;pdf=cGsucGRm</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">120uH_3A</field>
+        <field name="Footprint">inductor:16mm_Radial</field>
+        <field name="MFN">3L coil</field>
+        <field name="MFP">PK1213</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jack" part="DIN41612_2x32_B">
+      <description>Connector Europe 64 contacts ranges A,B</description>
+      <docs> ~</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DIN41612_2x32_B</field>
+        <field name="Footprint">jack:DIN41612_B_2x32_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="1A" type="passive"/>
+        <pin num="A2" name="2A" type="passive"/>
+        <pin num="A3" name="3A" type="passive"/>
+        <pin num="A4" name="4A" type="passive"/>
+        <pin num="A5" name="5A" type="passive"/>
+        <pin num="A6" name="6A" type="passive"/>
+        <pin num="A7" name="7A" type="passive"/>
+        <pin num="A8" name="8A" type="passive"/>
+        <pin num="A9" name="9A" type="passive"/>
+        <pin num="A10" name="10A" type="passive"/>
+        <pin num="A11" name="11A" type="passive"/>
+        <pin num="A12" name="12A" type="passive"/>
+        <pin num="A13" name="13A" type="passive"/>
+        <pin num="A14" name="14A" type="passive"/>
+        <pin num="A15" name="15A" type="passive"/>
+        <pin num="A16" name="16A" type="passive"/>
+        <pin num="A17" name="17A" type="passive"/>
+        <pin num="A18" name="18A" type="passive"/>
+        <pin num="A19" name="19A" type="passive"/>
+        <pin num="A20" name="20A" type="passive"/>
+        <pin num="A21" name="21A" type="passive"/>
+        <pin num="A22" name="22A" type="passive"/>
+        <pin num="A23" name="23A" type="passive"/>
+        <pin num="A24" name="24A" type="passive"/>
+        <pin num="A25" name="25A" type="passive"/>
+        <pin num="A26" name="26A" type="passive"/>
+        <pin num="A27" name="27A" type="passive"/>
+        <pin num="A28" name="28A" type="passive"/>
+        <pin num="A29" name="29A" type="passive"/>
+        <pin num="A30" name="30A" type="passive"/>
+        <pin num="A31" name="31A" type="passive"/>
+        <pin num="A32" name="32A" type="passive"/>
+        <pin num="B1" name="1B" type="passive"/>
+        <pin num="B2" name="2B" type="passive"/>
+        <pin num="B3" name="3B" type="passive"/>
+        <pin num="B4" name="4B" type="passive"/>
+        <pin num="B5" name="5B" type="passive"/>
+        <pin num="B6" name="6B" type="passive"/>
+        <pin num="B7" name="7B" type="passive"/>
+        <pin num="B8" name="8B" type="passive"/>
+        <pin num="B9" name="9B" type="passive"/>
+        <pin num="B10" name="10B" type="passive"/>
+        <pin num="B11" name="11B" type="passive"/>
+        <pin num="B12" name="12B" type="passive"/>
+        <pin num="B13" name="13B" type="passive"/>
+        <pin num="B14" name="14B" type="passive"/>
+        <pin num="B15" name="15B" type="passive"/>
+        <pin num="B16" name="16B" type="passive"/>
+        <pin num="B17" name="17B" type="passive"/>
+        <pin num="B18" name="18B" type="passive"/>
+        <pin num="B19" name="19B" type="passive"/>
+        <pin num="B20" name="20B" type="passive"/>
+        <pin num="B21" name="21B" type="passive"/>
+        <pin num="B22" name="22B" type="passive"/>
+        <pin num="B23" name="23B" type="passive"/>
+        <pin num="B24" name="24B" type="passive"/>
+        <pin num="B25" name="25B" type="passive"/>
+        <pin num="B26" name="26B" type="passive"/>
+        <pin num="B27" name="27B" type="passive"/>
+        <pin num="B28" name="28B" type="passive"/>
+        <pin num="B29" name="29B" type="passive"/>
+        <pin num="B30" name="30B" type="passive"/>
+        <pin num="B31" name="31B" type="passive"/>
+        <pin num="B32" name="32B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="module" part="RPI_4+Run">
+      <docs>E:\Datasheets\Electronics\ElectroMechanical\Connectors\RM_2.54mm\3M_2.54-Terminal-Headers-Bottom-Entry_ts2192</docs>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">RPI_4+Run</field>
+        <field name="Footprint">module:raspberrypi4</field>
+        <field name="MFN">Raspberry Pi</field>
+        <field name="MFP">RPI 4B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3.3V" type="power_out"/>
+        <pin num="2" name="5V" type="power_out"/>
+        <pin num="3" name="SDA1/GPIO2" type="passive"/>
+        <pin num="4" name="5V" type="power_out"/>
+        <pin num="5" name="SCL1/GPIO3" type="passive"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="GPIO4" type="passive"/>
+        <pin num="8" name="TXD0/GPIO14" type="passive"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="RXD0/GPIO15" type="passive"/>
+        <pin num="11" name="CE1_0/GPIO17" type="passive"/>
+        <pin num="12" name="GPIO18" type="passive"/>
+        <pin num="13" name="GPIO27" type="passive"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="GPIO22" type="passive"/>
+        <pin num="16" name="GPIO23" type="passive"/>
+        <pin num="17" name="3.3V" type="power_out"/>
+        <pin num="18" name="GPIO24" type="passive"/>
+        <pin num="19" name="MOSI0/GPIO10" type="passive"/>
+        <pin num="20" name="GND" type="power_in"/>
+        <pin num="21" name="MISO0/GPIO9" type="passive"/>
+        <pin num="22" name="GPIO25" type="passive"/>
+        <pin num="23" name="SCLK0/GPIO11" type="passive"/>
+        <pin num="24" name="CE0_0/GPIO8" type="passive"/>
+        <pin num="25" name="GND" type="power_in"/>
+        <pin num="26" name="CE0_1/GPIO7" type="passive"/>
+        <pin num="27" name="ID_SD" type="BiDi"/>
+        <pin num="28" name="ID_SC" type="BiDi"/>
+        <pin num="29" name="GPIO5" type="passive"/>
+        <pin num="30" name="GND" type="power_in"/>
+        <pin num="31" name="GPIO6" type="passive"/>
+        <pin num="32" name="GPIO12" type="passive"/>
+        <pin num="33" name="GPIO13" type="passive"/>
+        <pin num="34" name="GND" type="power_in"/>
+        <pin num="35" name="MISO1/GPIO19" type="passive"/>
+        <pin num="36" name="GPIO16" type="passive"/>
+        <pin num="37" name="GPIO26" type="passive"/>
+        <pin num="38" name="MOSI1/GPIO20" type="passive"/>
+        <pin num="39" name="GND" type="power_in"/>
+        <pin num="40" name="SCLK1/GPIO21" type="passive"/>
+        <pin num="41" name="Global_EN" type="passive"/>
+        <pin num="42" name="GND" type="passive"/>
+        <pin num="43" name="RUN_PG2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistor" part="Resistor_0805">
+      <description>Resistor 0805</description>
+      <docs>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">Resistor_0805</field>
+        <field name="Footprint">resistor:R_0805</field>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistor" part="Resistor_1210">
+      <description>Resistor 1210 1%</description>
+      <docs>http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR10X.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">Resistor_1210</field>
+        <field name="Footprint">resistor:R_1210</field>
+        <field name="MFN">Walsin</field>
+        <field name="MFP">WR10X</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="switch" part="Tactile_90_Degeree">
+      <docs>https://www.mouser.tw/datasheet/2/60/pts645-965362.pdf</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Tactile_90_Degeree</field>
+        <field name="Footprint">switch:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS</field>
+        <field name="MFN">Keystone</field>
+        <field name="MFP">PTS645VH58-2LFS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistor" part="2N7002">
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/2N7002.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N7002</field>
+        <field name="Footprint">transistor:SOT-23</field>
+        <field name="MFN">Nexperia</field>
+        <field name="MFP">2N7002</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="capacitor">
+      <uri>C:/Users/jenso/OneDrive/文件/KiCAD_lib/01_LIB_SCH/capacitor.lib</uri>
+    </library>
+    <library logical="ferrite">
+      <uri>C:/Users/jenso/OneDrive/文件/KiCAD_lib/01_LIB_SCH/ferrite.lib</uri>
+    </library>
+    <library logical="hardware">
+      <uri>C:/Users/jenso/OneDrive/文件/KiCAD_lib/01_LIB_SCH/hardware.lib</uri>
+    </library>
+    <library logical="ic">
+      <uri>C:/Users/jenso/OneDrive/文件/KiCAD_lib/01_LIB_SCH/ic.lib</uri>
+    </library>
+    <library logical="inductor">
+      <uri>C:/Users/jenso/OneDrive/文件/KiCAD_lib/01_LIB_SCH/inductor.lib</uri>
+    </library>
+    <library logical="jack">
+      <uri>C:/Users/jenso/OneDrive/文件/KiCAD_lib/01_LIB_SCH/jack.lib</uri>
+    </library>
+    <library logical="module">
+      <uri>C:/Users/jenso/OneDrive/文件/KiCAD_lib/01_LIB_SCH/module.lib</uri>
+    </library>
+    <library logical="resistor">
+      <uri>C:/Users/jenso/OneDrive/文件/KiCAD_lib/01_LIB_SCH/resistor.lib</uri>
+    </library>
+    <library logical="switch">
+      <uri>C:/Users/jenso/OneDrive/文件/KiCAD_lib/01_LIB_SCH/switch.lib</uri>
+    </library>
+    <library logical="transistor">
+      <uri>C:/Users/jenso/OneDrive/文件/KiCAD_lib/01_LIB_SCH/transistor.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Bus/I2C_SCL">
+      <node ref="R601" pin="2"/>
+      <node ref="U601" pin="7"/>
+      <node ref="R207" pin="1"/>
+    </net>
+    <net code="2" name="/Bus/PWR_5V">
+      <node ref="R236" pin="1"/>
+      <node ref="U301" pin="5"/>
+    </net>
+    <net code="3" name="/Bus/PWR_24V">
+      <node ref="R237" pin="1"/>
+      <node ref="U301" pin="9"/>
+    </net>
+    <net code="4" name="/Bus/PWR_3V3">
+      <node ref="R235" pin="1"/>
+      <node ref="U301" pin="3"/>
+    </net>
+    <net code="5" name="/Bus/1_wire">
+      <node ref="R604" pin="2"/>
+      <node ref="Q601" pin="2"/>
+      <node ref="R603" pin="2"/>
+      <node ref="R208" pin="1"/>
+    </net>
+    <net code="6" name="/Bus/I2C_SDA">
+      <node ref="R206" pin="1"/>
+      <node ref="U601" pin="6"/>
+      <node ref="R602" pin="2"/>
+    </net>
+    <net code="7" name="/Bus/GPO25">
+      <node ref="U502" pin="7"/>
+      <node ref="R226" pin="1"/>
+    </net>
+    <net code="8" name="/Bus/PCM_DOUT">
+      <node ref="R233" pin="1"/>
+      <node ref="U502" pin="2"/>
+    </net>
+    <net code="9" name="/Bus/CE2">
+      <node ref="R231" pin="1"/>
+      <node ref="U502" pin="3"/>
+    </net>
+    <net code="10" name="/Bus/PWM0">
+      <node ref="R230" pin="1"/>
+      <node ref="U502" pin="4"/>
+    </net>
+    <net code="11" name="/Bus/CE1">
+      <node ref="R228" pin="1"/>
+      <node ref="U502" pin="5"/>
+    </net>
+    <net code="12" name="/Bus/GPO24">
+      <node ref="U502" pin="8"/>
+      <node ref="R225" pin="1"/>
+    </net>
+    <net code="13" name="/Bus/GPO23">
+      <node ref="R224" pin="1"/>
+      <node ref="U501" pin="2"/>
+    </net>
+    <net code="14" name="/Bus/CE0">
+      <node ref="R227" pin="1"/>
+      <node ref="U502" pin="6"/>
+    </net>
+    <net code="15" name="/Bus/#RESET">
+      <node ref="U301" pin="11"/>
+      <node ref="R234" pin="1"/>
+      <node ref="R301" pin="2"/>
+      <node ref="U301" pin="1"/>
+    </net>
+    <net code="16" name="/Bus/ID_SD">
+      <node ref="U303" pin="6"/>
+      <node ref="R215" pin="1"/>
+      <node ref="R308" pin="2"/>
+    </net>
+    <net code="17" name="/Bus/ID_SC">
+      <node ref="R229" pin="1"/>
+      <node ref="R307" pin="2"/>
+      <node ref="U303" pin="7"/>
+    </net>
+    <net code="18" name="/Inputs/CE">
+      <node ref="U401" pin="19"/>
+      <node ref="U501" pin="19"/>
+      <node ref="U502" pin="19"/>
+      <node ref="R301" pin="1"/>
+      <node ref="U303" pin="5"/>
+      <node ref="U301" pin="2"/>
+      <node ref="U601" pin="5"/>
+    </net>
+    <net code="19" name="Earth">
+      <node ref="R103" pin="1"/>
+      <node ref="FB101" pin="1"/>
+      <node ref="C101" pin="1"/>
+      <node ref="R102" pin="1"/>
+      <node ref="FB102" pin="1"/>
+      <node ref="R101" pin="1"/>
+    </net>
+    <net code="20" name="Net-(M101-Pad1)">
+      <node ref="M101" pin="1"/>
+      <node ref="R101" pin="2"/>
+    </net>
+    <net code="21" name="/Bus/GPI17">
+      <node ref="R209" pin="1"/>
+      <node ref="U401" pin="9"/>
+    </net>
+    <net code="22" name="/Bus/PCM_DIN">
+      <node ref="U401" pin="2"/>
+      <node ref="R232" pin="1"/>
+    </net>
+    <net code="23" name="/Bus/GPI6">
+      <node ref="R217" pin="1"/>
+      <node ref="U401" pin="4"/>
+    </net>
+    <net code="24" name="/Bus/UART0_RXD">
+      <node ref="R222" pin="1"/>
+      <node ref="U401" pin="3"/>
+    </net>
+    <net code="25" name="/Bus/GPI5">
+      <node ref="R216" pin="1"/>
+      <node ref="U401" pin="5"/>
+    </net>
+    <net code="26" name="/Bus/MISO">
+      <node ref="R213" pin="1"/>
+      <node ref="U401" pin="6"/>
+    </net>
+    <net code="27" name="/Bus/GPI22">
+      <node ref="U401" pin="7"/>
+      <node ref="R211" pin="1"/>
+    </net>
+    <net code="28" name="/Bus/GPI27">
+      <node ref="U401" pin="8"/>
+      <node ref="R210" pin="1"/>
+    </net>
+    <net code="29" name="/Bus/MOSI">
+      <node ref="R212" pin="1"/>
+      <node ref="U501" pin="9"/>
+    </net>
+    <net code="30" name="/Bus/SCLK">
+      <node ref="R214" pin="1"/>
+      <node ref="U501" pin="8"/>
+    </net>
+    <net code="31" name="/Bus/PWM1">
+      <node ref="U501" pin="7"/>
+      <node ref="R218" pin="1"/>
+    </net>
+    <net code="32" name="/Bus/PCM_FS">
+      <node ref="R219" pin="1"/>
+      <node ref="U501" pin="6"/>
+    </net>
+    <net code="33" name="/Bus/GPO26">
+      <node ref="R220" pin="1"/>
+      <node ref="U501" pin="5"/>
+    </net>
+    <net code="34" name="/Bus/UART0_TXD">
+      <node ref="R221" pin="1"/>
+      <node ref="U501" pin="4"/>
+    </net>
+    <net code="35" name="/Bus/PCM_CLK">
+      <node ref="U501" pin="3"/>
+      <node ref="R223" pin="1"/>
+    </net>
+    <net code="36" name="/Computer/GPIO18">
+      <node ref="X701" pin="12"/>
+      <node ref="U501" pin="17"/>
+    </net>
+    <net code="37" name="/Computer/GPIO10">
+      <node ref="U501" pin="11"/>
+      <node ref="X701" pin="19"/>
+    </net>
+    <net code="38" name="/Computer/GPIO17">
+      <node ref="X701" pin="11"/>
+      <node ref="U401" pin="11"/>
+    </net>
+    <net code="39" name="/Computer/GPIO20">
+      <node ref="U401" pin="18"/>
+      <node ref="X701" pin="38"/>
+    </net>
+    <net code="40" name="/Computer/GPIO6">
+      <node ref="X701" pin="31"/>
+      <node ref="U401" pin="16"/>
+    </net>
+    <net code="41" name="/Computer/GPIO15">
+      <node ref="X701" pin="10"/>
+      <node ref="U401" pin="17"/>
+    </net>
+    <net code="42" name="/Computer/GPIO5">
+      <node ref="U401" pin="15"/>
+      <node ref="X701" pin="29"/>
+    </net>
+    <net code="43" name="/Computer/GPIO9">
+      <node ref="U401" pin="14"/>
+      <node ref="X701" pin="21"/>
+    </net>
+    <net code="44" name="/Computer/GPIO22">
+      <node ref="U401" pin="13"/>
+      <node ref="X701" pin="15"/>
+    </net>
+    <net code="45" name="/Computer/GPIO27">
+      <node ref="X701" pin="13"/>
+      <node ref="U401" pin="12"/>
+    </net>
+    <net code="46" name="/Computer/GPIO11">
+      <node ref="U501" pin="12"/>
+      <node ref="X701" pin="23"/>
+    </net>
+    <net code="47" name="/Computer/GPIO13">
+      <node ref="U501" pin="13"/>
+      <node ref="X701" pin="33"/>
+    </net>
+    <net code="48" name="/Computer/GPIO19">
+      <node ref="X701" pin="35"/>
+      <node ref="U501" pin="14"/>
+    </net>
+    <net code="49" name="/Computer/GPIO26">
+      <node ref="U501" pin="15"/>
+      <node ref="X701" pin="37"/>
+    </net>
+    <net code="50" name="/Computer/GPIO14">
+      <node ref="X701" pin="8"/>
+      <node ref="U501" pin="16"/>
+    </net>
+    <net code="51" name="/Computer/GPIO8">
+      <node ref="X701" pin="24"/>
+      <node ref="U502" pin="14"/>
+    </net>
+    <net code="52" name="/Computer/GPIO23">
+      <node ref="X701" pin="16"/>
+      <node ref="U501" pin="18"/>
+    </net>
+    <net code="53" name="/Computer/GPIO24">
+      <node ref="X701" pin="18"/>
+      <node ref="U502" pin="12"/>
+    </net>
+    <net code="54" name="/Computer/GPIO7">
+      <node ref="X701" pin="26"/>
+      <node ref="U502" pin="15"/>
+    </net>
+    <net code="55" name="/Computer/GPIO12">
+      <node ref="X701" pin="32"/>
+      <node ref="U502" pin="16"/>
+    </net>
+    <net code="56" name="/Computer/GPIO16">
+      <node ref="X701" pin="36"/>
+      <node ref="U502" pin="17"/>
+    </net>
+    <net code="57" name="/Computer/GPIO21">
+      <node ref="X701" pin="40"/>
+      <node ref="U502" pin="18"/>
+    </net>
+    <net code="58" name="/Computer/GPIO25">
+      <node ref="U502" pin="13"/>
+      <node ref="X701" pin="22"/>
+    </net>
+    <net code="59" name="/Computer/GPIO3">
+      <node ref="U601" pin="2"/>
+      <node ref="X701" pin="5"/>
+      <node ref="R606" pin="2"/>
+    </net>
+    <net code="60" name="/Computer/GPIO2">
+      <node ref="R607" pin="2"/>
+      <node ref="X701" pin="3"/>
+      <node ref="U601" pin="3"/>
+    </net>
+    <net code="61" name="/Computer/GPIO4">
+      <node ref="X701" pin="7"/>
+      <node ref="R605" pin="2"/>
+      <node ref="R604" pin="1"/>
+      <node ref="Q601" pin="3"/>
+    </net>
+    <net code="62" name="/Computer/RUN_PG2">
+      <node ref="R306" pin="1"/>
+      <node ref="X701" pin="43"/>
+    </net>
+    <net code="63" name="/Computer/ID_SD_RPI">
+      <node ref="X701" pin="27"/>
+      <node ref="U302" pin="5"/>
+      <node ref="R310" pin="2"/>
+      <node ref="U303" pin="3"/>
+    </net>
+    <net code="64" name="/Computer/ID_SC_RPI">
+      <node ref="U303" pin="2"/>
+      <node ref="R309" pin="2"/>
+      <node ref="U302" pin="6"/>
+      <node ref="X701" pin="28"/>
+    </net>
+    <net code="65" name="GND">
+      <node ref="J201" pin="A28"/>
+      <node ref="J201" pin="A29"/>
+      <node ref="J201" pin="A30"/>
+      <node ref="J201" pin="A31"/>
+      <node ref="J201" pin="A32"/>
+      <node ref="U502" pin="10"/>
+      <node ref="C502" pin="2"/>
+      <node ref="C501" pin="2"/>
+      <node ref="J201" pin="B30"/>
+      <node ref="R504" pin="1"/>
+      <node ref="R503" pin="1"/>
+      <node ref="C212" pin="2"/>
+      <node ref="C205" pin="2"/>
+      <node ref="J201" pin="A27"/>
+      <node ref="J201" pin="B27"/>
+      <node ref="J201" pin="B28"/>
+      <node ref="J201" pin="B29"/>
+      <node ref="J201" pin="B31"/>
+      <node ref="U601" pin="4"/>
+      <node ref="C210" pin="2"/>
+      <node ref="J201" pin="B32"/>
+      <node ref="U401" pin="10"/>
+      <node ref="C401" pin="2"/>
+      <node ref="R402" pin="1"/>
+      <node ref="C303" pin="2"/>
+      <node ref="C302" pin="2"/>
+      <node ref="C101" pin="2"/>
+      <node ref="R103" pin="2"/>
+      <node ref="FB101" pin="2"/>
+      <node ref="FB102" pin="2"/>
+      <node ref="U301" pin="7"/>
+      <node ref="C201" pin="2"/>
+      <node ref="C202" pin="2"/>
+      <node ref="C203" pin="2"/>
+      <node ref="C204" pin="2"/>
+      <node ref="C206" pin="2"/>
+      <node ref="C207" pin="2"/>
+      <node ref="C208" pin="2"/>
+      <node ref="C209" pin="2"/>
+      <node ref="U303" pin="4"/>
+      <node ref="C301" pin="2"/>
+      <node ref="U302" pin="3"/>
+      <node ref="U302" pin="2"/>
+      <node ref="U302" pin="1"/>
+      <node ref="U302" pin="4"/>
+      <node ref="C211" pin="2"/>
+      <node ref="U501" pin="10"/>
+      <node ref="U302" pin="7"/>
+      <node ref="C711" pin="2"/>
+      <node ref="C712" pin="2"/>
+      <node ref="C601" pin="2"/>
+      <node ref="C704" pin="2"/>
+      <node ref="C701" pin="2"/>
+      <node ref="X701" pin="9"/>
+      <node ref="C702" pin="2"/>
+      <node ref="X701" pin="42"/>
+      <node ref="X701" pin="39"/>
+      <node ref="X701" pin="34"/>
+      <node ref="X701" pin="30"/>
+      <node ref="X701" pin="25"/>
+      <node ref="X701" pin="20"/>
+      <node ref="C703" pin="2"/>
+      <node ref="X701" pin="6"/>
+      <node ref="C710" pin="2"/>
+      <node ref="C705" pin="2"/>
+      <node ref="C706" pin="2"/>
+      <node ref="C708" pin="2"/>
+      <node ref="C707" pin="2"/>
+      <node ref="X701" pin="14"/>
+      <node ref="C709" pin="2"/>
+      <node ref="SW701" pin="1"/>
+    </net>
+    <net code="66" name="Net-(M101-Pad2)">
+      <node ref="R102" pin="2"/>
+      <node ref="M101" pin="2"/>
+    </net>
+    <net code="67" name="Net-(R401-Pad1)">
+      <node ref="R402" pin="2"/>
+      <node ref="R401" pin="1"/>
+      <node ref="U401" pin="1"/>
+    </net>
+    <net code="68" name="+3V3">
+      <node ref="R305" pin="1"/>
+      <node ref="C208" pin="1"/>
+      <node ref="R601" pin="1"/>
+      <node ref="C209" pin="1"/>
+      <node ref="C210" pin="1"/>
+      <node ref="C211" pin="1"/>
+      <node ref="C212" pin="1"/>
+      <node ref="R401" pin="2"/>
+      <node ref="C401" pin="1"/>
+      <node ref="R501" pin="2"/>
+      <node ref="C207" pin="1"/>
+      <node ref="U502" pin="20"/>
+      <node ref="Q601" pin="1"/>
+      <node ref="R310" pin="1"/>
+      <node ref="C303" pin="1"/>
+      <node ref="C302" pin="1"/>
+      <node ref="R304" pin="1"/>
+      <node ref="C301" pin="1"/>
+      <node ref="U303" pin="8"/>
+      <node ref="R303" pin="1"/>
+      <node ref="R307" pin="1"/>
+      <node ref="R308" pin="1"/>
+      <node ref="R309" pin="1"/>
+      <node ref="R703" pin="2"/>
+      <node ref="U302" pin="8"/>
+      <node ref="R602" pin="1"/>
+      <node ref="R605" pin="1"/>
+      <node ref="R603" pin="1"/>
+      <node ref="R704" pin="2"/>
+      <node ref="U301" pin="14"/>
+      <node ref="L201" pin="2"/>
+      <node ref="C501" pin="1"/>
+      <node ref="C502" pin="1"/>
+      <node ref="R607" pin="1"/>
+      <node ref="R606" pin="1"/>
+      <node ref="U501" pin="20"/>
+      <node ref="C601" pin="1"/>
+      <node ref="U401" pin="20"/>
+      <node ref="U601" pin="8"/>
+      <node ref="R502" pin="2"/>
+    </net>
+    <net code="69" name="Net-(U502-Pad9)">
+      <node ref="U502" pin="9"/>
+    </net>
+    <net code="70" name="Net-(R502-Pad1)">
+      <node ref="U502" pin="1"/>
+      <node ref="R504" pin="2"/>
+      <node ref="R502" pin="1"/>
+    </net>
+    <net code="71" name="Net-(R501-Pad1)">
+      <node ref="R501" pin="1"/>
+      <node ref="R503" pin="2"/>
+      <node ref="U501" pin="1"/>
+    </net>
+    <net code="72" name="Net-(U502-Pad11)">
+      <node ref="U502" pin="11"/>
+    </net>
+    <net code="73" name="Net-(U601-Pad1)">
+      <node ref="U601" pin="1"/>
+    </net>
+    <net code="74" name="+5V">
+      <node ref="C703" pin="1"/>
+      <node ref="C702" pin="1"/>
+      <node ref="C705" pin="1"/>
+      <node ref="C701" pin="1"/>
+      <node ref="C706" pin="1"/>
+      <node ref="J201" pin="B3"/>
+      <node ref="C704" pin="1"/>
+      <node ref="J201" pin="A3"/>
+      <node ref="J201" pin="A4"/>
+      <node ref="L701" pin="2"/>
+      <node ref="J201" pin="B4"/>
+    </net>
+    <net code="75" name="Net-(R705-Pad2)">
+      <node ref="R705" pin="2"/>
+      <node ref="SW701" pin="2"/>
+    </net>
+    <net code="76" name="Net-(SW701-Pad4)">
+      <node ref="SW701" pin="4"/>
+    </net>
+    <net code="77" name="Net-(SW701-Pad3)">
+      <node ref="SW701" pin="3"/>
+    </net>
+    <net code="78" name="Net-(R703-Pad1)">
+      <node ref="R703" pin="1"/>
+      <node ref="X701" pin="1"/>
+    </net>
+    <net code="79" name="Net-(R704-Pad1)">
+      <node ref="R704" pin="1"/>
+      <node ref="X701" pin="17"/>
+    </net>
+    <net code="80" name="Net-(R701-Pad1)">
+      <node ref="X701" pin="2"/>
+      <node ref="R701" pin="1"/>
+    </net>
+    <net code="81" name="Net-(R702-Pad1)">
+      <node ref="X701" pin="4"/>
+      <node ref="R702" pin="1"/>
+    </net>
+    <net code="82" name="Net-(R705-Pad1)">
+      <node ref="R705" pin="1"/>
+      <node ref="X701" pin="41"/>
+    </net>
+    <net code="83" name="Net-(C707-Pad1)">
+      <node ref="R701" pin="2"/>
+      <node ref="C707" pin="1"/>
+      <node ref="C712" pin="1"/>
+      <node ref="C711" pin="1"/>
+      <node ref="R702" pin="2"/>
+      <node ref="C710" pin="1"/>
+      <node ref="L701" pin="1"/>
+      <node ref="C709" pin="1"/>
+      <node ref="C708" pin="1"/>
+    </net>
+    <net code="84" name="+24V">
+      <node ref="J201" pin="A24"/>
+      <node ref="J201" pin="A23"/>
+      <node ref="J201" pin="B24"/>
+    </net>
+    <net code="85" name="Net-(J201-PadB23)">
+      <node ref="J201" pin="B23"/>
+      <node ref="R237" pin="2"/>
+    </net>
+    <net code="86" name="Net-(J201-PadB9)">
+      <node ref="J201" pin="B9"/>
+      <node ref="R210" pin="2"/>
+    </net>
+    <net code="87" name="Net-(J201-PadB8)">
+      <node ref="J201" pin="B8"/>
+      <node ref="R208" pin="2"/>
+    </net>
+    <net code="88" name="Net-(J201-PadB7)">
+      <node ref="R206" pin="2"/>
+      <node ref="J201" pin="B7"/>
+    </net>
+    <net code="89" name="Net-(J201-PadB6)">
+      <node ref="R204" pin="2"/>
+      <node ref="J201" pin="B6"/>
+    </net>
+    <net code="90" name="Net-(J201-PadB5)">
+      <node ref="R202" pin="2"/>
+      <node ref="J201" pin="B5"/>
+    </net>
+    <net code="91" name="VDC">
+      <node ref="J201" pin="A25"/>
+      <node ref="J201" pin="B25"/>
+      <node ref="J201" pin="B26"/>
+      <node ref="J201" pin="A26"/>
+    </net>
+    <net code="92" name="Net-(C201-Pad1)">
+      <node ref="J201" pin="A2"/>
+      <node ref="L201" pin="1"/>
+      <node ref="J201" pin="B2"/>
+      <node ref="J201" pin="A1"/>
+      <node ref="J201" pin="B1"/>
+      <node ref="C205" pin="1"/>
+      <node ref="C202" pin="1"/>
+      <node ref="C201" pin="1"/>
+      <node ref="C206" pin="1"/>
+      <node ref="C204" pin="1"/>
+      <node ref="C203" pin="1"/>
+    </net>
+    <net code="93" name="Net-(J201-PadA20)">
+      <node ref="J201" pin="A20"/>
+      <node ref="R231" pin="2"/>
+    </net>
+    <net code="94" name="Net-(J201-PadB20)">
+      <node ref="R232" pin="2"/>
+      <node ref="J201" pin="B20"/>
+    </net>
+    <net code="95" name="Net-(J201-PadA21)">
+      <node ref="J201" pin="A21"/>
+      <node ref="R233" pin="2"/>
+    </net>
+    <net code="96" name="Net-(J201-PadB19)">
+      <node ref="J201" pin="B19"/>
+      <node ref="R230" pin="2"/>
+    </net>
+    <net code="97" name="Net-(J201-PadA19)">
+      <node ref="R229" pin="2"/>
+      <node ref="J201" pin="A19"/>
+    </net>
+    <net code="98" name="Net-(J201-PadB18)">
+      <node ref="R228" pin="2"/>
+      <node ref="J201" pin="B18"/>
+    </net>
+    <net code="99" name="Net-(J201-PadA18)">
+      <node ref="R227" pin="2"/>
+      <node ref="J201" pin="A18"/>
+    </net>
+    <net code="100" name="Net-(J201-PadB17)">
+      <node ref="J201" pin="B17"/>
+      <node ref="R226" pin="2"/>
+    </net>
+    <net code="101" name="Net-(J201-PadA17)">
+      <node ref="R225" pin="2"/>
+      <node ref="J201" pin="A17"/>
+    </net>
+    <net code="102" name="Net-(J201-PadB22)">
+      <node ref="J201" pin="B22"/>
+      <node ref="R236" pin="2"/>
+    </net>
+    <net code="103" name="Net-(J201-PadA22)">
+      <node ref="J201" pin="A22"/>
+      <node ref="R235" pin="2"/>
+    </net>
+    <net code="104" name="Net-(J201-PadB21)">
+      <node ref="J201" pin="B21"/>
+      <node ref="R234" pin="2"/>
+    </net>
+    <net code="105" name="Net-(J201-PadA10)">
+      <node ref="R211" pin="2"/>
+      <node ref="J201" pin="A10"/>
+    </net>
+    <net code="106" name="Net-(J201-PadA9)">
+      <node ref="J201" pin="A9"/>
+      <node ref="R209" pin="2"/>
+    </net>
+    <net code="107" name="Net-(R201-Pad1)">
+      <node ref="R201" pin="1"/>
+    </net>
+    <net code="108" name="Net-(R204-Pad1)">
+      <node ref="R204" pin="1"/>
+    </net>
+    <net code="109" name="Net-(R203-Pad1)">
+      <node ref="R203" pin="1"/>
+    </net>
+    <net code="110" name="Net-(R202-Pad1)">
+      <node ref="R202" pin="1"/>
+    </net>
+    <net code="111" name="Net-(R205-Pad1)">
+      <node ref="R205" pin="1"/>
+    </net>
+    <net code="112" name="Net-(J201-PadB10)">
+      <node ref="R212" pin="2"/>
+      <node ref="J201" pin="B10"/>
+    </net>
+    <net code="113" name="Net-(J201-PadA8)">
+      <node ref="J201" pin="A8"/>
+      <node ref="R207" pin="2"/>
+    </net>
+    <net code="114" name="Net-(J201-PadA7)">
+      <node ref="R205" pin="2"/>
+      <node ref="J201" pin="A7"/>
+    </net>
+    <net code="115" name="Net-(J201-PadA6)">
+      <node ref="J201" pin="A6"/>
+      <node ref="R203" pin="2"/>
+    </net>
+    <net code="116" name="Net-(J201-PadA5)">
+      <node ref="R201" pin="2"/>
+      <node ref="J201" pin="A5"/>
+    </net>
+    <net code="117" name="Net-(J201-PadB13)">
+      <node ref="R218" pin="2"/>
+      <node ref="J201" pin="B13"/>
+    </net>
+    <net code="118" name="Net-(J201-PadB16)">
+      <node ref="J201" pin="B16"/>
+      <node ref="R224" pin="2"/>
+    </net>
+    <net code="119" name="Net-(J201-PadA16)">
+      <node ref="J201" pin="A16"/>
+      <node ref="R223" pin="2"/>
+    </net>
+    <net code="120" name="Net-(J201-PadB15)">
+      <node ref="R222" pin="2"/>
+      <node ref="J201" pin="B15"/>
+    </net>
+    <net code="121" name="Net-(J201-PadA15)">
+      <node ref="R221" pin="2"/>
+      <node ref="J201" pin="A15"/>
+    </net>
+    <net code="122" name="Net-(J201-PadB14)">
+      <node ref="J201" pin="B14"/>
+      <node ref="R220" pin="2"/>
+    </net>
+    <net code="123" name="Net-(J201-PadA14)">
+      <node ref="J201" pin="A14"/>
+      <node ref="R219" pin="2"/>
+    </net>
+    <net code="124" name="Net-(J201-PadA13)">
+      <node ref="J201" pin="A13"/>
+      <node ref="R217" pin="2"/>
+    </net>
+    <net code="125" name="Net-(J201-PadB12)">
+      <node ref="J201" pin="B12"/>
+      <node ref="R216" pin="2"/>
+    </net>
+    <net code="126" name="Net-(J201-PadA12)">
+      <node ref="J201" pin="A12"/>
+      <node ref="R215" pin="2"/>
+    </net>
+    <net code="127" name="Net-(J201-PadB11)">
+      <node ref="J201" pin="B11"/>
+      <node ref="R214" pin="2"/>
+    </net>
+    <net code="128" name="Net-(J201-PadA11)">
+      <node ref="J201" pin="A11"/>
+      <node ref="R213" pin="2"/>
+    </net>
+    <net code="129" name="Net-(U303-Pad1)">
+      <node ref="U303" pin="1"/>
+    </net>
+    <net code="130" name="Net-(D301-Pad2)">
+      <node ref="D301" pin="2"/>
+      <node ref="R303" pin="2"/>
+    </net>
+    <net code="131" name="Net-(R302-Pad1)">
+      <node ref="R302" pin="1"/>
+      <node ref="R306" pin="2"/>
+      <node ref="U301" pin="12"/>
+    </net>
+    <net code="132" name="Net-(R302-Pad2)">
+      <node ref="U301" pin="13"/>
+      <node ref="R302" pin="2"/>
+      <node ref="U301" pin="10"/>
+    </net>
+    <net code="133" name="Net-(D301-Pad1)">
+      <node ref="U301" pin="8"/>
+      <node ref="D301" pin="1"/>
+    </net>
+    <net code="134" name="Net-(D303-Pad2)">
+      <node ref="R305" pin="2"/>
+      <node ref="D303" pin="2"/>
+    </net>
+    <net code="135" name="Net-(D303-Pad1)">
+      <node ref="D303" pin="1"/>
+      <node ref="U301" pin="4"/>
+    </net>
+    <net code="136" name="Net-(D302-Pad1)">
+      <node ref="D302" pin="1"/>
+      <node ref="U301" pin="6"/>
+    </net>
+    <net code="137" name="Net-(D302-Pad2)">
+      <node ref="D302" pin="2"/>
+      <node ref="R304" pin="2"/>
+    </net>
+  </nets>
+</export>

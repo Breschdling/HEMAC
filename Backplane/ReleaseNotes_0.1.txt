@@ -1,0 +1,12 @@
+HEMAC Backplane revision 0.1 release notes
+
+Footprints
+- Remove copper around screw holes DIN connector.
+- Screw terminal holes too small.
+
+Mechanical
+- Increase copper / solder mask keep out area at the board edge to 10mm 
+- Board is 42HP wide but only utilize 40HP of card width.
+
+Components not mounted
+- Not applicable

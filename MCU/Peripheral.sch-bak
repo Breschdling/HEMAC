@@ -1,0 +1,743 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 7
+Title "HEMAC MCU"
+Date "2020-05-05"
+Rev "0.1"
+Comp ""
+Comment1 "JOH"
+Comment2 "FR4"
+Comment3 "N/A"
+Comment4 "Internal"
+$EndDescr
+Wire Wire Line
+	2050 2350 1950 2350
+Wire Wire Line
+	2650 2350 2750 2350
+Text Label 3200 2350 0    50   ~ 0
+CE
+Wire Wire Line
+	2500 2700 2750 2700
+Wire Wire Line
+	2750 2700 2750 2350
+Connection ~ 2750 2350
+Wire Wire Line
+	2750 2350 3750 2350
+Wire Wire Line
+	2200 2700 1950 2700
+Wire Wire Line
+	1950 2700 1950 2350
+Connection ~ 1950 2350
+Wire Wire Line
+	1950 2350 1400 2350
+Text Notes 2250 2850 0    50   ~ 0
+DNP
+$Comp
+L Device:LED D?
+U 1 1 5F3EEF19
+P 3050 3350
+AR Path="/5F3EEF19" Ref="D?"  Part="1" 
+AR Path="/5F31F68A/5F3EEF19" Ref="D303"  Part="1" 
+F 0 "D303" H 3041 3569 50  0000 C CNN
+F 1 "LED" H 3041 3476 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 3050 3350 50  0001 C CNN
+F 3 "~" H 3050 3350 50  0001 C CNN
+	1    3050 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 3250 3750 3350
+Wire Wire Line
+	3750 3350 3600 3350
+Wire Wire Line
+	3300 3350 3200 3350
+Wire Wire Line
+	2900 3350 2650 3350
+$Comp
+L Device:LED D?
+U 1 1 5F3EEF2F
+P 3000 4100
+AR Path="/5F3EEF2F" Ref="D?"  Part="1" 
+AR Path="/5F31F68A/5F3EEF2F" Ref="D302"  Part="1" 
+F 0 "D302" H 2991 4319 50  0000 C CNN
+F 1 "LED" H 2991 4226 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 3000 4100 50  0001 C CNN
+F 3 "~" H 3000 4100 50  0001 C CNN
+	1    3000 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 4000 3700 4100
+Wire Wire Line
+	3700 4100 3550 4100
+Wire Wire Line
+	3250 4100 3150 4100
+Wire Wire Line
+	2850 4100 2600 4100
+$Comp
+L Device:LED D?
+U 1 1 5F3EEF45
+P 2950 4750
+AR Path="/5F3EEF45" Ref="D?"  Part="1" 
+AR Path="/5F31F68A/5F3EEF45" Ref="D301"  Part="1" 
+F 0 "D301" H 2941 4969 50  0000 C CNN
+F 1 "LED" H 2941 4876 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 2950 4750 50  0001 C CNN
+F 3 "~" H 2950 4750 50  0001 C CNN
+	1    2950 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 4650 3650 4750
+Wire Wire Line
+	3650 4750 3500 4750
+Wire Wire Line
+	3200 4750 3100 4750
+Wire Wire Line
+	2800 4750 2550 4750
+Wire Wire Line
+	2050 3350 1400 3350
+Wire Wire Line
+	2000 4100 1400 4100
+Wire Wire Line
+	1950 4750 1400 4750
+Text Label 1550 5400 0    50   ~ 0
+#RESET
+Wire Wire Line
+	1950 5400 1400 5400
+Wire Wire Line
+	2550 5400 2650 5400
+Wire Wire Line
+	3350 5400 3400 5400
+Wire Wire Line
+	2900 5800 2650 5800
+Wire Wire Line
+	2650 5800 2650 5400
+Connection ~ 2650 5400
+Wire Wire Line
+	2650 5400 2750 5400
+Wire Wire Line
+	3200 5800 3400 5800
+Wire Wire Line
+	3400 5800 3400 5400
+Connection ~ 3400 5400
+Wire Wire Line
+	3400 5400 3450 5400
+Wire Wire Line
+	3750 5400 4200 5400
+Text Notes 2950 5950 0    50   ~ 0
+DNP
+Wire Wire Line
+	6300 6600 6300 6300
+Wire Wire Line
+	6300 6300 6750 6300
+Wire Wire Line
+	6300 7400 6300 6900
+Wire Wire Line
+	6750 6050 6750 6300
+Wire Wire Line
+	7900 4800 7900 4500
+Wire Wire Line
+	8150 3500 7900 3500
+Wire Wire Line
+	7900 3450 7900 3500
+Connection ~ 7900 3500
+Wire Wire Line
+	7900 3500 7900 3900
+Text Notes 8600 4350 0    50   ~ 0
+Address 0x50
+Wire Wire Line
+	8300 4300 8400 4300
+Wire Wire Line
+	8400 4300 8400 4800
+Wire Wire Line
+	7450 4800 7450 4300
+Wire Wire Line
+	7450 4100 7500 4100
+Wire Wire Line
+	7500 4200 7450 4200
+Connection ~ 7450 4200
+Wire Wire Line
+	7450 4200 7450 4100
+Wire Wire Line
+	7500 4300 7450 4300
+Connection ~ 7450 4300
+Wire Wire Line
+	7450 4300 7450 4200
+Wire Wire Line
+	6950 2600 7550 2600
+Wire Wire Line
+	6950 2700 7750 2700
+Wire Wire Line
+	7750 2100 7750 1950
+Wire Wire Line
+	7550 2100 7550 1950
+Wire Wire Line
+	7550 2400 7550 2600
+Connection ~ 7550 2600
+Wire Wire Line
+	7750 2400 7750 2700
+Connection ~ 7750 2700
+Wire Wire Line
+	7550 2600 7900 2600
+Wire Wire Line
+	7750 2700 7900 2700
+Wire Wire Line
+	8750 2600 9200 2600
+Wire Wire Line
+	8750 2700 9400 2700
+Wire Wire Line
+	9400 2100 9400 1950
+Wire Wire Line
+	9200 2100 9200 1950
+Wire Wire Line
+	9200 2400 9200 2600
+Wire Wire Line
+	9400 2400 9400 2700
+Connection ~ 9200 2600
+Connection ~ 9400 2700
+Wire Wire Line
+	8750 2800 9700 2800
+Text Label 9300 2800 0    50   ~ 0
+CE
+Wire Wire Line
+	9400 4100 9400 2700
+Wire Wire Line
+	8300 4100 9400 4100
+Wire Wire Line
+	9200 4200 9200 2600
+Wire Wire Line
+	8300 4200 9200 4200
+$Comp
+L ic:74HC14D U301
+U 1 1 5EB9C84B
+P 2350 2350
+F 0 "U301" H 2350 2667 50  0000 C CNN
+F 1 "74HC14D" H 2350 2576 50  0000 C CNN
+F 2 "ic:SOIC-14_3.9x8.7mm_P1.27mm" H 2250 2300 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 2600 1700 50  0001 C CNN
+F 4 "Nexperia" H 2600 1800 50  0001 C CNN "MFN"
+F 5 "74HC14D" H 2550 2600 50  0001 C CNN "MFP"
+	1    2350 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L ic:74HC14D U301
+U 2 1 5EB9D7DB
+P 2350 3350
+F 0 "U301" H 2350 3667 50  0000 C CNN
+F 1 "74HC14D" H 2350 3576 50  0000 C CNN
+F 2 "ic:SOIC-14_3.9x8.7mm_P1.27mm" H 2250 3300 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 2600 2700 50  0001 C CNN
+F 4 "Nexperia" H 2600 2800 50  0001 C CNN "MFN"
+F 5 "74HC14D" H 2550 3600 50  0001 C CNN "MFP"
+	2    2350 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L ic:74HC14D U301
+U 3 1 5EB9E4DA
+P 2300 4100
+F 0 "U301" H 2300 4417 50  0000 C CNN
+F 1 "74HC14D" H 2300 4326 50  0000 C CNN
+F 2 "ic:SOIC-14_3.9x8.7mm_P1.27mm" H 2200 4050 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 2550 3450 50  0001 C CNN
+F 4 "Nexperia" H 2550 3550 50  0001 C CNN "MFN"
+F 5 "74HC14D" H 2500 4350 50  0001 C CNN "MFP"
+	3    2300 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ic:74HC14D U301
+U 4 1 5EB9F301
+P 2250 4750
+F 0 "U301" H 2250 5067 50  0000 C CNN
+F 1 "74HC14D" H 2250 4976 50  0000 C CNN
+F 2 "ic:SOIC-14_3.9x8.7mm_P1.27mm" H 2150 4700 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 2500 4100 50  0001 C CNN
+F 4 "Nexperia" H 2500 4200 50  0001 C CNN "MFN"
+F 5 "74HC14D" H 2450 5000 50  0001 C CNN "MFP"
+	4    2250 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L ic:74HC14D U301
+U 5 1 5EBA00DB
+P 2250 5400
+F 0 "U301" H 2250 5717 50  0000 C CNN
+F 1 "74HC14D" H 2250 5626 50  0000 C CNN
+F 2 "ic:SOIC-14_3.9x8.7mm_P1.27mm" H 2150 5350 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 2500 4750 50  0001 C CNN
+F 4 "Nexperia" H 2500 4850 50  0001 C CNN "MFN"
+F 5 "74HC14D" H 2450 5650 50  0001 C CNN "MFP"
+	5    2250 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L ic:74HC14D U301
+U 6 1 5EBA1123
+P 3050 5400
+F 0 "U301" H 3050 5717 50  0000 C CNN
+F 1 "74HC14D" H 3050 5626 50  0000 C CNN
+F 2 "ic:SOIC-14_3.9x8.7mm_P1.27mm" H 2950 5350 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 3300 4750 50  0001 C CNN
+F 4 "Nexperia" H 3300 4850 50  0001 C CNN "MFN"
+F 5 "74HC14D" H 3250 5650 50  0001 C CNN "MFP"
+	6    3050 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L ic:74HC14D U301
+U 7 1 5EBA2514
+P 6750 6750
+F 0 "U301" H 6830 6796 50  0000 L CNN
+F 1 "74HC14D" H 6830 6705 50  0000 L CNN
+F 2 "ic:SOIC-14_3.9x8.7mm_P1.27mm" H 6650 6700 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 7000 6100 50  0001 C CNN
+F 4 "Nexperia" H 7000 6200 50  0001 C CNN "MFN"
+F 5 "74HC14D" H 6950 7000 50  0001 C CNN "MFP"
+	7    6750 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0303
+U 1 1 5EBA8E6A
+P 3750 3250
+F 0 "#PWR0303" H 3750 3100 50  0001 C CNN
+F 1 "+3V3" H 3765 3423 50  0000 C CNN
+F 2 "" H 3750 3250 50  0001 C CNN
+F 3 "" H 3750 3250 50  0001 C CNN
+	1    3750 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0302
+U 1 1 5EBA966C
+P 3700 4000
+F 0 "#PWR0302" H 3700 3850 50  0001 C CNN
+F 1 "+3V3" H 3715 4173 50  0000 C CNN
+F 2 "" H 3700 4000 50  0001 C CNN
+F 3 "" H 3700 4000 50  0001 C CNN
+	1    3700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0301
+U 1 1 5EBA9D51
+P 3650 4650
+F 0 "#PWR0301" H 3650 4500 50  0001 C CNN
+F 1 "+3V3" H 3665 4823 50  0000 C CNN
+F 2 "" H 3650 4650 50  0001 C CNN
+F 3 "" H 3650 4650 50  0001 C CNN
+	1    3650 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0305
+U 1 1 5EBAABDA
+P 6750 6050
+F 0 "#PWR0305" H 6750 5900 50  0001 C CNN
+F 1 "+3V3" H 6765 6223 50  0000 C CNN
+F 2 "" H 6750 6050 50  0001 C CNN
+F 3 "" H 6750 6050 50  0001 C CNN
+	1    6750 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0304
+U 1 1 5EBAAEE1
+P 6300 7400
+F 0 "#PWR0304" H 6300 7150 50  0001 C CNN
+F 1 "GND" H 6305 7227 50  0000 C CNN
+F 2 "" H 6300 7400 50  0001 C CNN
+F 3 "" H 6300 7400 50  0001 C CNN
+	1    6300 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0306
+U 1 1 5EBAB64C
+P 6750 7400
+F 0 "#PWR0306" H 6750 7150 50  0001 C CNN
+F 1 "GND" H 6755 7227 50  0000 C CNN
+F 2 "" H 6750 7400 50  0001 C CNN
+F 3 "" H 6750 7400 50  0001 C CNN
+	1    6750 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0309
+U 1 1 5EBAB908
+P 7550 1950
+F 0 "#PWR0309" H 7550 1800 50  0001 C CNN
+F 1 "+3V3" H 7565 2123 50  0000 C CNN
+F 2 "" H 7550 1950 50  0001 C CNN
+F 3 "" H 7550 1950 50  0001 C CNN
+	1    7550 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0310
+U 1 1 5EBABFBD
+P 7750 1950
+F 0 "#PWR0310" H 7750 1800 50  0001 C CNN
+F 1 "+3V3" H 7765 2123 50  0000 C CNN
+F 2 "" H 7750 1950 50  0001 C CNN
+F 3 "" H 7750 1950 50  0001 C CNN
+	1    7750 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0317
+U 1 1 5EBAC0FE
+P 9200 1950
+F 0 "#PWR0317" H 9200 1800 50  0001 C CNN
+F 1 "+3V3" V 9200 2200 50  0000 C CNN
+F 2 "" H 9200 1950 50  0001 C CNN
+F 3 "" H 9200 1950 50  0001 C CNN
+	1    9200 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0318
+U 1 1 5EBAC67E
+P 9400 1950
+F 0 "#PWR0318" H 9400 1800 50  0001 C CNN
+F 1 "+3V3" V 9400 2200 50  0000 C CNN
+F 2 "" H 9400 1950 50  0001 C CNN
+F 3 "" H 9400 1950 50  0001 C CNN
+	1    9400 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 6350 6750 6300
+Connection ~ 6750 6300
+$Comp
+L ic:CAT24C32 U302
+U 1 1 5EBB14E9
+P 7900 4200
+F 0 "U302" H 7650 4450 50  0000 C CNN
+F 1 "CAT24C32" H 8150 3950 50  0000 C CNN
+F 2 "ic:SOIC-8_3.9x4.9mm_P1.27mm" H 7900 4200 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/CAT24C32-D.PDF" H 7900 4200 50  0001 C CNN
+F 4 "OnSemi" H 7900 4200 50  0001 C CNN "MFN"
+F 5 "CAT24C32WI" H 7900 4200 50  0001 C CNN "MFP"
+	1    7900 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0308
+U 1 1 5EBB245A
+P 7450 4800
+F 0 "#PWR0308" H 7450 4550 50  0001 C CNN
+F 1 "GND" H 7455 4627 50  0000 C CNN
+F 2 "" H 7450 4800 50  0001 C CNN
+F 3 "" H 7450 4800 50  0001 C CNN
+	1    7450 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0312
+U 1 1 5EBB271C
+P 7900 4800
+F 0 "#PWR0312" H 7900 4550 50  0001 C CNN
+F 1 "GND" H 7905 4627 50  0000 C CNN
+F 2 "" H 7900 4800 50  0001 C CNN
+F 3 "" H 7900 4800 50  0001 C CNN
+	1    7900 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0314
+U 1 1 5EBB293C
+P 8400 4800
+F 0 "#PWR0314" H 8400 4550 50  0001 C CNN
+F 1 "GND" H 8405 4627 50  0000 C CNN
+F 2 "" H 8400 4800 50  0001 C CNN
+F 3 "" H 8400 4800 50  0001 C CNN
+	1    8400 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0311
+U 1 1 5EBB2C64
+P 7900 3450
+F 0 "#PWR0311" H 7900 3300 50  0001 C CNN
+F 1 "+3V3" H 7915 3623 50  0000 C CNN
+F 2 "" H 7900 3450 50  0001 C CNN
+F 3 "" H 7900 3450 50  0001 C CNN
+	1    7900 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0316
+U 1 1 5EBB333A
+P 8850 3400
+F 0 "#PWR0316" H 8850 3150 50  0001 C CNN
+F 1 "GND" H 8855 3227 50  0000 C CNN
+F 2 "" H 8850 3400 50  0001 C CNN
+F 3 "" H 8850 3400 50  0001 C CNN
+	1    8850 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0307
+U 1 1 5EBD3629
+P 7450 3000
+F 0 "#PWR0307" H 7450 2750 50  0001 C CNN
+F 1 "GND" H 7455 2827 50  0000 C CNN
+F 2 "" H 7450 3000 50  0001 C CNN
+F 3 "" H 7450 3000 50  0001 C CNN
+	1    7450 3000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7900 2800
+$Comp
+L power:+3V3 #PWR0315
+U 1 1 5EBD79B9
+P 8850 1950
+F 0 "#PWR0315" H 8850 1800 50  0001 C CNN
+F 1 "+3V3" V 8850 2200 50  0000 C CNN
+F 2 "" H 8850 1950 50  0001 C CNN
+F 3 "" H 8850 1950 50  0001 C CNN
+	1    8850 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 2700 9700 2700
+Wire Wire Line
+	9200 2600 9700 2600
+Wire Wire Line
+	8750 2900 8850 2900
+Wire Wire Line
+	8850 2900 8850 3000
+Wire Wire Line
+	8850 3300 8850 3400
+Wire Wire Line
+	8850 1950 8850 2900
+Connection ~ 8850 2900
+Text HLabel 1400 3350 0    50   Input ~ 0
+PWR_3V3
+Text HLabel 1400 4100 0    50   Input ~ 0
+PWR_5V
+Text HLabel 1400 2350 0    50   BiDi ~ 0
+#RESET
+Text HLabel 1400 4750 0    50   Input ~ 0
+PWR_24V
+Text HLabel 6950 2600 0    50   BiDi ~ 0
+ID_SC
+Text HLabel 6950 2700 0    50   BiDi ~ 0
+ID_SD
+Text HLabel 9700 2700 2    50   BiDi ~ 0
+ID_SD_RPI
+Text HLabel 9700 2600 2    50   BiDi ~ 0
+ID_SC_RPI
+Text HLabel 3750 2350 2    50   Output ~ 0
+CE
+Text HLabel 4200 5400 2    50   Output ~ 0
+RUN_PG2
+Text Label 1550 2350 0    50   ~ 0
+#RESET
+Wire Wire Line
+	6750 7400 6750 7150
+$Comp
+L power:GND #PWR0313
+U 1 1 5EB8745C
+P 8150 3800
+F 0 "#PWR0313" H 8150 3550 50  0001 C CNN
+F 1 "GND" H 8200 3650 50  0000 C CNN
+F 2 "" H 8150 3800 50  0001 C CNN
+F 3 "" H 8150 3800 50  0001 C CNN
+	1    8150 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 2900 7450 2900
+Wire Wire Line
+	7450 2900 7450 3000
+$Comp
+L resistor:Resistor_0805 R301
+U 1 1 5EBB87E2
+P 2350 2700
+F 0 "R301" V 2300 2900 50  0000 C CNN
+F 1 "0R" V 2350 2700 50  0000 C CNN
+F 2 "resistor:R_0805" V 2900 2810 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf" V 2810 2950 50  0001 C CNN
+F 4 "Walsin" H 2350 2700 79  0001 C CNN "MFN"
+F 5 "WR08" H 2350 2700 79  0001 C CNN "MFP"
+	1    2350 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L resistor:Resistor_0805 R302
+U 1 1 5EBB9901
+P 3050 5800
+F 0 "R302" V 3000 6000 50  0000 C CNN
+F 1 "0R" V 3050 5800 50  0000 C CNN
+F 2 "resistor:R_0805" V 3600 5910 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf" V 3510 6050 50  0001 C CNN
+F 4 "Walsin" H 3050 5800 79  0001 C CNN "MFN"
+F 5 "WR08" H 3050 5800 79  0001 C CNN "MFP"
+	1    3050 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L resistor:Resistor_0805 R306
+U 1 1 5EBBA79D
+P 3600 5400
+F 0 "R306" V 3550 5600 50  0000 C CNN
+F 1 "0R" V 3600 5400 50  0000 C CNN
+F 2 "resistor:R_0805" V 4150 5510 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf" V 4060 5650 50  0001 C CNN
+F 4 "Walsin" H 3600 5400 79  0001 C CNN "MFN"
+F 5 "WR08" H 3600 5400 79  0001 C CNN "MFP"
+	1    3600 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L resistor:Resistor_0805 R305
+U 1 1 5EBBB14C
+P 3450 3350
+F 0 "R305" V 3400 3550 50  0000 C CNN
+F 1 "220R" V 3450 3350 50  0000 C CNN
+F 2 "resistor:R_0805" V 4000 3460 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf" V 3910 3600 50  0001 C CNN
+F 4 "Walsin" H 3450 3350 79  0001 C CNN "MFN"
+F 5 "WR08" H 3450 3350 79  0001 C CNN "MFP"
+	1    3450 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L resistor:Resistor_0805 R304
+U 1 1 5EBBBC6B
+P 3400 4100
+F 0 "R304" V 3350 4300 50  0000 C CNN
+F 1 "220R" V 3400 4100 50  0000 C CNN
+F 2 "resistor:R_0805" V 3950 4210 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf" V 3860 4350 50  0001 C CNN
+F 4 "Walsin" H 3400 4100 79  0001 C CNN "MFN"
+F 5 "WR08" H 3400 4100 79  0001 C CNN "MFP"
+	1    3400 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L resistor:Resistor_0805 R303
+U 1 1 5EBBC08D
+P 3350 4750
+F 0 "R303" V 3300 4950 50  0000 C CNN
+F 1 "220R" V 3350 4750 50  0000 C CNN
+F 2 "resistor:R_0805" V 3900 4860 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf" V 3810 5000 50  0001 C CNN
+F 4 "Walsin" H 3350 4750 79  0001 C CNN "MFN"
+F 5 "WR08" H 3350 4750 79  0001 C CNN "MFP"
+	1    3350 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L ic:PCA9515 U303
+U 1 1 5EBD8F75
+P 8750 2950
+F 0 "U303" H 9175 3525 50  0000 C CNN
+F 1 "PCA9515" H 9175 3434 50  0000 C CNN
+F 2 "ic:SOIC-8_3.9x4.9mm_P1.27mm" H 9100 2550 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/PCA9515.pdf" H 9100 2550 50  0001 C CNN
+F 4 "NXP" H 9200 2650 50  0001 C CNN "MFN"
+F 5 "PCA9515D" H 9300 2750 50  0001 C CNN "MFP"
+	1    8750 2950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L capacitor:Capacitor_0805 C301
+U 1 1 5EBC0FC9
+P 6300 6750
+F 0 "C301" V 6350 6800 50  0000 L CNN
+F 1 "100nF" V 6350 6450 50  0000 L CNN
+F 2 "capacitor:C_0805" H 6338 6600 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf" H 6740 6550 50  0001 C CNN
+F 4 "0805" H 6350 6280 60  0001 C CNN "MFP"
+F 5 "Walsin" H 6320 6460 60  0001 C CNN "MFN"
+	1    6300 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L capacitor:Capacitor_0805 C302
+U 1 1 5EBC25C7
+P 8150 3650
+F 0 "C302" V 8200 3700 50  0000 L CNN
+F 1 "100nF" V 8050 3500 50  0000 L CNN
+F 2 "capacitor:C_0805" H 8188 3500 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf" H 8590 3450 50  0001 C CNN
+F 4 "0805" H 8200 3180 60  0001 C CNN "MFP"
+F 5 "Walsin" H 8170 3360 60  0001 C CNN "MFN"
+	1    8150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L capacitor:Capacitor_0805 C303
+U 1 1 5EBC3820
+P 8850 3150
+F 0 "C303" V 8900 3200 50  0000 L CNN
+F 1 "100nF" V 8750 3000 50  0000 L CNN
+F 2 "capacitor:C_0805" H 8888 3000 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf" H 9290 2950 50  0001 C CNN
+F 4 "0805" H 8900 2680 60  0001 C CNN "MFP"
+F 5 "Walsin" H 8870 2860 60  0001 C CNN "MFN"
+	1    8850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L resistor:Resistor_0805 R307
+U 1 1 5EBC43FC
+P 7550 2250
+F 0 "R307" V 7500 2400 50  0000 L CNN
+F 1 "3k9" V 7550 2200 50  0000 L CNN
+F 2 "resistor:R_0805" V 8100 2360 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf" V 8010 2500 50  0001 C CNN
+F 4 "Walsin" H 7550 2250 79  0001 C CNN "MFN"
+F 5 "WR08" H 7550 2250 79  0001 C CNN "MFP"
+	1    7550 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L resistor:Resistor_0805 R308
+U 1 1 5EBC4C4B
+P 7750 2250
+F 0 "R308" V 7700 2400 50  0000 L CNN
+F 1 "3k9" V 7750 2200 50  0000 L CNN
+F 2 "resistor:R_0805" V 8300 2360 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf" V 8210 2500 50  0001 C CNN
+F 4 "Walsin" H 7750 2250 79  0001 C CNN "MFN"
+F 5 "WR08" H 7750 2250 79  0001 C CNN "MFP"
+	1    7750 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L resistor:Resistor_0805 R309
+U 1 1 5EBC5017
+P 9200 2250
+F 0 "R309" V 9150 2400 50  0000 L CNN
+F 1 "3k9" V 9200 2200 50  0000 L CNN
+F 2 "resistor:R_0805" V 9750 2360 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf" V 9660 2500 50  0001 C CNN
+F 4 "Walsin" H 9200 2250 79  0001 C CNN "MFN"
+F 5 "WR08" H 9200 2250 79  0001 C CNN "MFP"
+	1    9200 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L resistor:Resistor_0805 R310
+U 1 1 5EBC51B6
+P 9400 2250
+F 0 "R310" V 9350 2400 50  0000 L CNN
+F 1 "3k9" V 9400 2200 50  0000 L CNN
+F 2 "resistor:R_0805" V 9950 2360 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf" V 9860 2500 50  0001 C CNN
+F 4 "Walsin" H 9400 2250 79  0001 C CNN "MFN"
+F 5 "WR08" H 9400 2250 79  0001 C CNN "MFP"
+	1    9400 2250
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
